@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace FirmCrm.BL.Model
 {
-    public class Customers
+    public class Customer
     {
-        public int CustomersId { get; set; }
-        public string CustomersName { get; set; }
+        public int CustomerId { get; set; }
+        public string CustomerName { get; set; }
         public int PhoneNumber { get; set; }
         public ICollection<Order> Orders { get; set; }
         public override string ToString()
         {
-            return $"ID заказчика - {CustomersId} Название фирмы заказчика - {CustomersName}";
+            return $"ID заказчика - {CustomerId} Название фирмы заказчика - {CustomerName}";
         }
     }
 }
