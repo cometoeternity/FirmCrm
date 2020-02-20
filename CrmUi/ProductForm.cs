@@ -22,7 +22,15 @@ namespace CrmUi
 
         private void label1_Click(object sender, EventArgs e)
         {
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Product = Product ?? new Product();
+            Product.Name = textBox1.Text;
+            Product.Price = Convert.ToDecimal(numericUpDown1);
+            Product.Count = Convert.ToInt32(numericUpDown2);
+            Close();
         }
     }
 }

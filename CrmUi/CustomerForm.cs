@@ -18,5 +18,13 @@ namespace CrmUi
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Customer = Customer ?? new Customer();
+            Customer.CustomerName = textBox1.Text;
+            Customer.PhoneNumber =Convert.ToInt32(textBox2);
+            Close();
+        }
     }
 }

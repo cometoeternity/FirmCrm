@@ -18,5 +18,13 @@ namespace CrmUi
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Employee = Employee ?? new Employee();
+            Employee.Surname = textBox1.Text;
+            Employee.Name = textBox2.Text;
+            Close();
+        }
     }
 }
