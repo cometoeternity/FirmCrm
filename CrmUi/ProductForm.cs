@@ -19,6 +19,13 @@ namespace CrmUi
 
             InitializeComponent();
         }
+        public ProductForm(Product product):this()
+        {
+            Product = product ?? new Product();
+            textBox1.Text = Product.Name;
+            numericUpDown1.Value = Product.Price;
+            numericUpDown2.Value = Product.Count;
+        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -28,8 +35,8 @@ namespace CrmUi
         {
             Product = Product ?? new Product();
             Product.Name = textBox1.Text;
-            Product.Price = Convert.ToDecimal(numericUpDown1);
-            Product.Count = Convert.ToInt32(numericUpDown2);
+            Product.Price = Convert.ToDecimal(numericUpDown1.Value);
+            Product.Count = Convert.ToInt32(numericUpDown2.Value);
             Close();
         }
     }

@@ -18,6 +18,12 @@ namespace CrmUi
         {
             InitializeComponent();
         }
+        public EmployeeForm(Employee employee):this()
+        {
+            Employee = employee ?? new Employee();
+            textBox1.Text = Employee.Surname;
+            textBox2.Text = Employee.Name;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {

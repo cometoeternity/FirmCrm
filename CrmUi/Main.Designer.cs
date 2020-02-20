@@ -96,7 +96,7 @@
             // orderAddToolStripMenuItem1
             // 
             this.orderAddToolStripMenuItem1.Name = "orderAddToolStripMenuItem1";
-            this.orderAddToolStripMenuItem1.Size = new System.Drawing.Size(159, 26);
+            this.orderAddToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.orderAddToolStripMenuItem1.Text = "Добавить";
             this.orderAddToolStripMenuItem1.Click += new System.EventHandler(this.orderAddToolStripMenuItem1_Click);
             // 
@@ -107,11 +107,12 @@
             this.OrderedToolStripMenuItem.Name = "OrderedToolStripMenuItem";
             this.OrderedToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.OrderedToolStripMenuItem.Text = "Заказано";
+            this.OrderedToolStripMenuItem.Click += new System.EventHandler(this.OrderedToolStripMenuItem_Click);
             // 
             // orderedAddToolStripMenuItem2
             // 
             this.orderedAddToolStripMenuItem2.Name = "orderedAddToolStripMenuItem2";
-            this.orderedAddToolStripMenuItem2.Size = new System.Drawing.Size(159, 26);
+            this.orderedAddToolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
             this.orderedAddToolStripMenuItem2.Text = "Добавить";
             this.orderedAddToolStripMenuItem2.Click += new System.EventHandler(this.orderedAddToolStripMenuItem2_Click);
             // 
@@ -122,11 +123,12 @@
             this.EmployeeToolStripMenuItem.Name = "EmployeeToolStripMenuItem";
             this.EmployeeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.EmployeeToolStripMenuItem.Text = "Сотрудники";
+            this.EmployeeToolStripMenuItem.Click += new System.EventHandler(this.EmployeeToolStripMenuItem_Click);
             // 
             // employeeAddToolStripMenuItem3
             // 
             this.employeeAddToolStripMenuItem3.Name = "employeeAddToolStripMenuItem3";
-            this.employeeAddToolStripMenuItem3.Size = new System.Drawing.Size(159, 26);
+            this.employeeAddToolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
             this.employeeAddToolStripMenuItem3.Text = "Добавить";
             this.employeeAddToolStripMenuItem3.Click += new System.EventHandler(this.employeeAddToolStripMenuItem3_Click);
             // 
@@ -137,6 +139,7 @@
             this.CustomerToolStripMenuItem.Name = "CustomerToolStripMenuItem";
             this.CustomerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.CustomerToolStripMenuItem.Text = "Заказчики";
+            this.CustomerToolStripMenuItem.Click += new System.EventHandler(this.CustomerToolStripMenuItem_Click);
             // 
             // customerAddToolStripMenuItem4
             // 
